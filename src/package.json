@@ -1,0 +1,16 @@
+{
+  "name": "clickhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apla/clickhouse": "^1.6.4",
+    "@posthog/clickhouse": "^1.7.0",
+    "clickhouse": "^2.4.2"
+  }
+}
