@@ -1,0 +1,18 @@
+columns format version: 1
+16 columns:
+`UserId` UInt32
+`Account` String
+`Telephone` String
+`Name` String
+`Title` String
+`Company` String
+`Department` String
+`RegisterTime` String
+`Role` String
+`Region` String
+`Preference` String
+`UserType` String
+`RoleExpireTime` String
+`UpdateTime` String
+`Expert` String
+`Status` String
