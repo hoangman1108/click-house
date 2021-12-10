@@ -1,4 +1,3 @@
-
 CREATE TABLE SM.users
 (
 `UserId` UInt32,
@@ -8,16 +7,24 @@ CREATE TABLE SM.users
 `Title` String,
 `Company` String,
 `Department` String,
-`RegisterTime` String,
+`RegisterTime` DateTime('Europe/London'),
 `Role` String,
 `Region` String,
 `Preference` String,
 `UserType` String,
-`RoleExpireTime` String,
-`UpdateTime` String,
+`RoleExpireTime` Date32,
+`UpdateTime` DateTime('Europe/London'),
 `Expert` String,
 `Status` String,
 PRIMARY KEY(UserId)
 )
 
 ENGINE = MergeTree()
+
+
+//
+
+DROP TABLE IF EXISTS SM.users 
+
+// 
+SELECT * FROM SM.users
